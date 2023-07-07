@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+
+{
+  "title": "VS Code",
+  "author": "Dan Abramov",
+  "url": "http://danabramov.com",
+  "likes": 200
+}
